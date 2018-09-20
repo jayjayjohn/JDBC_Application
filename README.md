@@ -2,7 +2,6 @@
 a java program that illustration a typical structure of database application
 
 # Core Java
-    -	Credit_Card_Management_System
     
 We will use Eclipse IDE to execute the application.
 It is assumed you have basic knowledge of Eclipse or any IDE, so no detailed steps provided. 
@@ -10,9 +9,7 @@ To run the application, import entire project zip file to Eclipse using ‘Archi
 You may change the password or username in the file according to your database.  
 
 # RDBMS/mySQL Description:  
-  -	db
-    -	CDW_SAPP.sql’  
-
+    -	CDW_SAPP.sql  
 mySQL database in used in the core java application. The CDW_SAPP sql script is attached in the db folder along with jave applicatipn folder.  To run the script, open cmd prompt. First, cd to the folder that contain CDW_SAPP.sql. 
 Second, login to your db server by running ‘mysql -r <username> -p’ and enter your password . Then, type command ‘source CDW_SAPP.sql’ . This will create all database and tables required. This is the database that connected to java application through JDBC.  
 Tables: 
