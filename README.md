@@ -1,5 +1,5 @@
 # JDBC_Application
-a java program that illustration a typical structure of database application
+a java program that perform query against a database. 
 
 # Core Java
     -  Source_code 
